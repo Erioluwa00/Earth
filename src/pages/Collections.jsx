@@ -29,7 +29,7 @@ export const Collections = () => {
 
       {/* Collection Blocks */}
       <div>
-        {COLLECTIONS.map((col, idx) => (
+        {COLLECTIONS.map((col) => (
           <section key={col.id} className="earth-collection-block" aria-label={col.title}>
             <div className="earth-container">
               <div className="earth-collection-header">

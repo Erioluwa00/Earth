@@ -9,8 +9,7 @@ export const SearchModal = () => {
     searchQuery,
     setSearchQuery,
     openQuickView,
-    formatPrice,
-    navigateTo
+    formatPrice
   } = useShop();
 
   if (!isSearchOpen) return null;
