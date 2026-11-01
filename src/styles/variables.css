@@ -1,0 +1,85 @@
+/* ==================================================
+   EARTH.NG — LUXURY SUSTAINABLE EDITORIAL DESIGN TOKENS
+   ================================================== */
+
+:root {
+  /* Color System — Warm Earthy Luxury */
+  --earth-ivory: #FAF7F2;
+  --earth-ivory-soft: #F4EFEB;
+  --earth-offwhite: #ECE5DB;
+  --earth-sand: #DFD5C5;
+  --earth-beige: #CFC1AD;
+  --earth-taupe: #948574;
+  --earth-brown: #574637;
+  --earth-dark-brown: #2E231B;
+  --earth-olive: #565E4E;
+  --earth-olive-light: #76816C;
+  --earth-charcoal: #171614;
+  --earth-charcoal-muted: #2A2825;
+  
+  /* Semantic Text Colors */
+  --earth-text-primary: #171614;
+  --earth-text-secondary: #585047;
+  --earth-text-muted: #8C8276;
+  --earth-text-light: #FAF7F2;
+  --earth-text-light-muted: rgba(250, 247, 242, 0.72);
+  
+  /* Borders & Dividers */
+  --earth-border: rgba(23, 22, 20, 0.08);
+  --earth-border-subtle: rgba(23, 22, 20, 0.05);
+  --earth-border-medium: rgba(23, 22, 20, 0.15);
+  --earth-border-light: rgba(250, 247, 242, 0.2);
+  
+  /* Overlays */
+  --earth-overlay-hero: linear-gradient(180deg, rgba(17, 16, 14, 0.45) 0%, rgba(17, 16, 14, 0.25) 45%, rgba(17, 16, 14, 0.65) 100%);
+  --earth-overlay-card: linear-gradient(180deg, transparent 40%, rgba(17, 16, 14, 0.75) 100%);
+  --earth-overlay-dark: rgba(17, 16, 14, 0.6);
+  --earth-overlay-blur: rgba(250, 247, 242, 0.88);
+  --earth-overlay-tint: rgba(244, 239, 235, 0.6);
+  
+  /* Typography */
+  --earth-font-serif: 'Cormorant Garamond', Georgia, serif;
+  --earth-font-display: 'Italiana', 'Cormorant Garamond', Georgia, serif;
+  --earth-font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  
+  /* Type Scale */
+  --earth-text-xs: 0.6875rem;    /* 11px */
+  --earth-text-sm: 0.8125rem;    /* 13px */
+  --earth-text-base: 0.9375rem;  /* 15px */
+  --earth-text-md: 1.0625rem;    /* 17px */
+  --earth-text-lg: 1.25rem;      /* 20px */
+  --earth-text-xl: 1.625rem;     /* 26px */
+  --earth-text-2xl: 2.25rem;     /* 36px */
+  --earth-text-3xl: 3.25rem;     /* 52px */
+  --earth-text-4xl: 4.5rem;      /* 72px */
+  --earth-text-hero: clamp(2.75rem, 6.5vw, 5.5rem);
+  
+  /* Spacing */
+  --earth-space-2xs: 4px;
+  --earth-space-xs: 8px;
+  --earth-space-sm: 12px;
+  --earth-space-md: 20px;
+  --earth-space-lg: 32px;
+  --earth-space-xl: 48px;
+  --earth-space-2xl: 80px;
+  --earth-space-3xl: 120px;
+  --earth-space-4xl: 160px;
+  
+  /* Layout */
+  --earth-container: 1400px;
+  --earth-container-narrow: 920px;
+  --earth-header-height: 84px;
+  --earth-header-height-mobile: 72px;
+  
+  /* Transitions */
+  --earth-ease: cubic-bezier(0.25, 1, 0.5, 1);
+  --earth-transition-fast: 0.25s cubic-bezier(0.25, 1, 0.5, 1);
+  --earth-transition-normal: 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+  --earth-transition-slow: 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  
+  /* Elevation */
+  --earth-shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.03);
+  --earth-shadow-md: 0 10px 30px rgba(23, 22, 20, 0.06);
+  --earth-shadow-lg: 0 20px 50px rgba(23, 22, 20, 0.12);
+  --earth-shadow-drawer: -12px 0 45px rgba(23, 22, 20, 0.12);
+}
